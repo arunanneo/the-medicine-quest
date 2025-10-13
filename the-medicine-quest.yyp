@@ -36,8 +36,10 @@
   "name":"the-medicine-quest",
   "resources":[
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
+    {"id":{"name":"obj_johnny","path":"objects/obj_johnny/obj_johnny.yy",},},
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
+    {"id":{"name":"spr_johnny","path":"sprites/spr_johnny/spr_johnny.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
