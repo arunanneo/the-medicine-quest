@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_johnny",
+  "%Name":"obj_groundcollision",
   "eventList":[],
   "managed":true,
-  "name":"obj_johnny",
+  "name":"obj_groundcollision",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Platforms",
+    "path":"folders/Objects/Platforms.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_johnny",
-    "path":"sprites/spr_johnny/spr_johnny.yy",
+    "name":"Spr_ground",
+    "path":"sprites/Spr_ground/Spr_ground.yy",
   },
   "spriteMaskId":null,
   "visible":true,
