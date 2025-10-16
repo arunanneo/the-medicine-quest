@@ -48,6 +48,8 @@
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
     {"id":{"name":"Spr_ground","path":"sprites/Spr_ground/Spr_ground.yy",},},
     {"id":{"name":"spr_johnnyidle","path":"sprites/spr_johnnyidle/spr_johnnyidle.yy",},},
+    {"id":{"name":"spr_johnnyjumping","path":"sprites/spr_johnnyjumping/spr_johnnyjumping.yy",},},
+    {"id":{"name":"spr_testbg","path":"sprites/spr_testbg/spr_testbg.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

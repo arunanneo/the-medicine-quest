@@ -27,6 +27,15 @@ var l3B8B7DAE_0 = instance_place(x + 0, y + 2, [obj_groundcollision]);if ((l3B8
 	/// @DnDArgument : "var" "move_y"
 	move_y = 0;
 
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 35D944FF
+	/// @DnDParent : 3B8B7DAE
+	/// @DnDArgument : "spriteind" "spr_johnnyidle"
+	/// @DnDSaveInfo : "spriteind" "spr_johnnyidle"
+	sprite_index = spr_johnnyidle;
+	image_index = 0;
+
 	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 406B8034
