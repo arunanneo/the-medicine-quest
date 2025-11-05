@@ -18,5 +18,5 @@ draw_set_valign(fa_middle);
 /// @DnDHash : 6FD13F5F
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "caption" ""THE MEDICINE QUEST""
-draw_text(x + 0, y + 0, string("THE MEDICINE QUEST") + "");
+/// @DnDArgument : "caption" ""The Medicine Quest""
+draw_text(x + 0, y + 0, string("The Medicine Quest") + "");
