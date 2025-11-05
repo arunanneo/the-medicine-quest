@@ -53,6 +53,7 @@
     {"id":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},},
     {"id":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"id":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_creditsbutton","path":"sprites/spr_creditsbutton/spr_creditsbutton.yy",},},
     {"id":{"name":"spr_exitbutton","path":"sprites/spr_exitbutton/spr_exitbutton.yy",},},
     {"id":{"name":"Spr_ground","path":"sprites/Spr_ground/Spr_ground.yy",},},
