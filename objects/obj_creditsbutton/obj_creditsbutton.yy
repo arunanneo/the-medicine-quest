@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_creditsbutton",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_creditsbutton",
   "overriddenProperties":[],
