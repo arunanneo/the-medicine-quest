@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_helpbutton",
+  "%Name":"obj_credits_exit",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_helpbutton",
+  "name":"obj_credits_exit",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_helpbutton",
-    "path":"sprites/spr_helpbutton/spr_helpbutton.yy",
+    "name":"Spr_popupclose",
+    "path":"sprites/Spr_popupclose/Spr_popupclose.yy",
   },
   "spriteMaskId":null,
   "visible":true,

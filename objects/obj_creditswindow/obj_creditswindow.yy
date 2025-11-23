@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_helpbutton",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_creditswindow",
+  "eventList":[],
   "managed":true,
-  "name":"obj_helpbutton",
+  "name":"obj_creditswindow",
   "overriddenProperties":[],
   "parent":{
     "name":"Menu",
     "path":"folders/Objects/Menu.yy",
   },
-  "parentObjectId":{
-    "name":"obj_buttonparent",
-    "path":"objects/obj_buttonparent/obj_buttonparent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_helpbutton",
-    "path":"sprites/spr_helpbutton/spr_helpbutton.yy",
+    "name":"spr_popup",
+    "path":"sprites/spr_popup/spr_popup.yy",
   },
   "spriteMaskId":null,
   "visible":true,
