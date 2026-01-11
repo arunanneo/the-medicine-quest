@@ -3,7 +3,9 @@
 /// @DnDHash : 76F5F9EA
 event_inherited();
 
-/// @DnDAction : YoYo Games.Rooms.Next_Room
+/// @DnDAction : YoYo Games.Rooms.Go_To_Room
 /// @DnDVersion : 1
-/// @DnDHash : 08507B45
-room_goto_next();
+/// @DnDHash : 00972594
+/// @DnDArgument : "room" "rm_plains"
+/// @DnDSaveInfo : "room" "rm_plains"
+room_goto(rm_plains);

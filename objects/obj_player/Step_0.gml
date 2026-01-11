@@ -107,7 +107,7 @@ else{	/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDArgument : "maxxmove" "move_speed"
 /// @DnDArgument : "object" "obj_groundcollision"
 /// @DnDSaveInfo : "object" "obj_groundcollision"
-move_and_collide(move_x, move_y, obj_groundcollision,4,0,0,move_speed,-1);
+move_and_collide(move_x, move_y, [obj_groundcollision],4,0,0,move_speed,-1);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
