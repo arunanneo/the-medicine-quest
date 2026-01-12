@@ -24,7 +24,8 @@ if(alarm[0] < 0){	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 	/// @DnDHash : 2BDA23A2
 	/// @DnDParent : 1CC32FCF
 	/// @DnDArgument : "direction" "180"
-	direction = 180;
+	/// @DnDArgument : "direction_relative" "1"
+	direction += 180;
 
 	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
