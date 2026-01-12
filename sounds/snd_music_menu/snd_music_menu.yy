@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sound_menu",
+  "%Name":"snd_music_menu",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":215.62502,
   "exportDir":"",
-  "name":"sound_menu",
+  "name":"snd_music_menu",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sound_menu.mp3",
+  "soundFile":"snd_music_menu.mp3",
   "volume":1.0,
 }

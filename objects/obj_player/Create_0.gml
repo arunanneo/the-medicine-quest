@@ -17,3 +17,14 @@ move_speed = 4;
 jump_speed = 16;
 move_x = 0;
 move_y = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 46C567BE
+/// @DnDInput : 2
+/// @DnDArgument : "expr" "4"
+/// @DnDArgument : "expr_1" "max_hearts"
+/// @DnDArgument : "var" "max_hearts"
+/// @DnDArgument : "var_1" "hearts"
+max_hearts = 4;
+hearts = max_hearts;

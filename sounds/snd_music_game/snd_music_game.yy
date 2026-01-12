@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sound_game",
+  "%Name":"snd_music_game",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -12,7 +12,7 @@
   "conversionMode":0,
   "duration":164.83266,
   "exportDir":"",
-  "name":"sound_game",
+  "name":"snd_music_game",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sound_game.mp3",
+  "soundFile":"snd_music_game.mp3",
   "volume":1.0,
 }
