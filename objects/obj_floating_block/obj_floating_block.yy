@@ -1,15 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_groundcollision",
-  "eventList":[],
+  "%Name":"obj_floating_block",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_groundcollision",
+  "name":"obj_floating_block",
   "overriddenProperties":[],
   "parent":{
     "name":"Platforms",
     "path":"folders/Objects/Platforms.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_groundcollision",
+    "path":"objects/obj_groundcollision/obj_groundcollision.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"Spr_ground",
-    "path":"sprites/Spr_ground/Spr_ground.yy",
+    "name":"spr_log",
+    "path":"sprites/spr_log/spr_log.yy",
   },
   "spriteMaskId":null,
   "visible":true,
