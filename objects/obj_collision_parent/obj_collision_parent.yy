@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_groundcollision",
+  "%Name":"obj_collision_parent",
   "eventList":[],
   "managed":true,
-  "name":"obj_groundcollision",
+  "name":"obj_collision_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Platforms",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,
-  "spriteId":{
-    "name":"Spr_ground",
-    "path":"sprites/Spr_ground/Spr_ground.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
