@@ -10,9 +10,9 @@ var l54C58117_0 = false;l54C58117_0 = instance_exists(obj_player);if(l54C58117
 	/// @DnDArgument : "x" "30"
 	/// @DnDArgument : "y" "30"
 	/// @DnDArgument : "sprite" "spr_heart"
-	/// @DnDArgument : "number" "4"
+	/// @DnDArgument : "number" "obj_player.hearts"
 	/// @DnDSaveInfo : "sprite" "spr_heart"
-	var l05B19651_0 = sprite_get_width(spr_heart);var l05B19651_1 = 0;for(var l05B19651_2 = 4; l05B19651_2 > 0; --l05B19651_2) {	draw_sprite(spr_heart, 0, 30 + l05B19651_1, 30);	l05B19651_1 += l05B19651_0;}
+	var l05B19651_0 = sprite_get_width(spr_heart);var l05B19651_1 = 0;for(var l05B19651_2 = obj_player.hearts; l05B19651_2 > 0; --l05B19651_2) {	draw_sprite(spr_heart, 0, 30 + l05B19651_1, 30);	l05B19651_1 += l05B19651_0;}
 
 	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
 	/// @DnDVersion : 1
@@ -21,6 +21,7 @@ var l54C58117_0 = false;l54C58117_0 = instance_exists(obj_player);if(l54C58117
 	/// @DnDArgument : "x" "1165"
 	/// @DnDArgument : "y" "30"
 	/// @DnDArgument : "sprite" "spr_hud_herb"
+	/// @DnDSaveInfo : "sprite" "spr_hud_herb"
 	draw_sprite(spr_hud_herb, 0, 1165, 30);
 
 	/// @DnDAction : YoYo Games.Drawing.Set_Font
