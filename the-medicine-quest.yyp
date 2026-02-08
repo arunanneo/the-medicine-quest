@@ -50,7 +50,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"the-medicine-quest",
   "resources":[
@@ -118,6 +118,7 @@
     {"id":{"name":"spr_hud_herb","path":"sprites/spr_hud_herb/spr_hud_herb.yy",},},
     {"id":{"name":"spr_johnnyidle","path":"sprites/spr_johnnyidle/spr_johnnyidle.yy",},},
     {"id":{"name":"spr_johnnyjumping","path":"sprites/spr_johnnyjumping/spr_johnnyjumping.yy",},},
+    {"id":{"name":"spr_johnnykirkded","path":"sprites/spr_johnnykirkded/spr_johnnykirkded.yy",},},
     {"id":{"name":"spr_log","path":"sprites/spr_log/spr_log.yy",},},
     {"id":{"name":"spr_playbutton","path":"sprites/spr_playbutton/spr_playbutton.yy",},},
     {"id":{"name":"spr_popup","path":"sprites/spr_popup/spr_popup.yy",},},

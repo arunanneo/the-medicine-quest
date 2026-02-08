@@ -123,6 +123,7 @@
     {"name":"inst_709A3D87","path":"rooms/rm_plains/rm_plains.yy",},
     {"name":"inst_4C024355","path":"rooms/rm_plains/rm_plains.yy",},
     {"name":"inst_33B0B67C","path":"rooms/rm_plains/rm_plains.yy",},
+    {"name":"inst_14B50A38","path":"rooms/rm_plains/rm_plains.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -302,6 +303,7 @@
         {"$GMRInstance":"v4","%Name":"inst_2E27342B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E27342B","objectId":{"name":"obj_log_spawner","path":"objects/obj_log_spawner/obj_log_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4411.0,"y":5159.0,},
         {"$GMRInstance":"v4","%Name":"inst_660419FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_660419FB","objectId":{"name":"obj_log_spawner_delay","path":"objects/obj_log_spawner_delay/obj_log_spawner_delay.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4411.0,"y":5159.0,},
         {"$GMRInstance":"v4","%Name":"inst_33B0B67C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_33B0B67C","objectId":{"name":"obj_log_spawner","path":"objects/obj_log_spawner/obj_log_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":5456.0,"y":5214.0,},
+        {"$GMRInstance":"v4","%Name":"inst_14B50A38","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14B50A38","objectId":{"name":"obj_bramble","path":"objects/obj_bramble/obj_bramble.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4488.0,"y":4950.0,},
       ],"layers":[],"name":"Entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Rock_Back","depth":700,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Rock_Back","properties":[
         {"name":"g_TintCol","type":1,"value":"#FFF2F2F2",},
