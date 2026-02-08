@@ -22,9 +22,9 @@ move_y = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 46C567BE
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "4"
-/// @DnDArgument : "expr_1" "max_hearts"
+/// @DnDArgument : "expr" "2"
+/// @DnDArgument : "expr_1" "max_hearts + 1"
 /// @DnDArgument : "var" "max_hearts"
 /// @DnDArgument : "var_1" "hearts"
-max_hearts = 4;
-hearts = max_hearts;
+max_hearts = 2;
+hearts = max_hearts + 1;
