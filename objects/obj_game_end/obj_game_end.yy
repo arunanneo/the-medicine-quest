@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spr_popupclose",
-    "path":"sprites/Spr_popupclose/Spr_popupclose.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

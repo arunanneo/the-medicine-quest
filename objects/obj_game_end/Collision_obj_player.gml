@@ -3,18 +3,14 @@
 /// @DnDHash : 361A78B0
 /// @DnDArgument : "var" "herb_amount"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "20"
-if(herb_amount >= 20){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+/// @DnDArgument : "value" "8"
+if(herb_amount >= 8){	/// @DnDAction : YoYo Games.Rooms.Next_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 4A5B17D1
+	/// @DnDHash : 0AE8A759
 	/// @DnDParent : 361A78B0
-	/// @DnDArgument : "room" "rm_win"
-	/// @DnDSaveInfo : "room" "rm_win"
-	room_goto(rm_win);}
+	room_goto_next();}
 
-/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+/// @DnDAction : YoYo Games.Rooms.Restart_Room
 /// @DnDVersion : 1
-/// @DnDHash : 4A583805
-/// @DnDArgument : "room" "rm_lose"
-/// @DnDSaveInfo : "room" "rm_lose"
-room_goto(rm_lose);
+/// @DnDHash : 6D6B1866
+room_restart();
