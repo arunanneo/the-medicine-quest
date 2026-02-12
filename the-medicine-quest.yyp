@@ -50,6 +50,7 @@
     {"link":"io.gamemaker.gm_effect_gaussian_blur-1.0.0","name":"io.gamemaker.gm_effect_gaussian_blur-1.0.0","path":"io.gamemaker.gm_effect_gaussian_blur-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_filter_posterise-1.0.0","name":"io.gamemaker.gm_filter_posterise-1.0.0","path":"io.gamemaker.gm_filter_posterise-1.0.0.yyp",},
     {"link":"io.gamemaker.gm_filter_outline-1.0.0","name":"io.gamemaker.gm_filter_outline-1.0.0","path":"io.gamemaker.gm_filter_outline-1.0.0.yyp",},
+    {"link":"io.gamemaker.gm_filter_hard_drop_shadow-1.0.0","name":"io.gamemaker.gm_filter_hard_drop_shadow-1.0.0","path":"io.gamemaker.gm_filter_hard_drop_shadow-1.0.0.yyp",},
   ],
   "IncludedFiles":[],
   "isEcma":false,
