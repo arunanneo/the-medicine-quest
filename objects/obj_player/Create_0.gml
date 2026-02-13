@@ -28,3 +28,9 @@ move_y = 0;
 /// @DnDArgument : "var_1" "hearts"
 max_hearts = 2;
 hearts = max_hearts + 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1D4214CB
+/// @DnDArgument : "var" "dash_state"
+dash_state = 0;
