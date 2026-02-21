@@ -22,9 +22,9 @@ image_alpha = ($FFFFFFFF >> 24) / $ff;
 /// @DnDHash : 0A7F9204
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "object" "obj_ground_collison"
-/// @DnDSaveInfo : "object" "obj_ground_collison"
-var l0A7F9204_0 = instance_place(x + 0, y + 0, [obj_ground_collison]);if ((l0A7F9204_0 > 0)){	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+/// @DnDArgument : "object" "obj_collision"
+/// @DnDSaveInfo : "object" "obj_collision"
+var l0A7F9204_0 = instance_place(x + 0, y + 0, [obj_collision]);if ((l0A7F9204_0 > 0)){	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
 	/// @DnDVersion : 1
 	/// @DnDHash : 157351B8
 	/// @DnDParent : 0A7F9204
