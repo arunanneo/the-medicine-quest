@@ -42,12 +42,21 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
+<<<<<<< Updated upstream
     "IDEVersion":"2024.14.1.210",
+=======
+    "IDEVersion":"2024.14.3.217",
+>>>>>>> Stashed changes
   },
   "name":"the-medicine-quest",
   "resources":[
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
     {"id":{"name":"obj_buttonparent","path":"objects/obj_buttonparent/obj_buttonparent.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"obj_closegame","path":"objects/obj_closegame/obj_closegame.yy",},},
+    {"id":{"name":"obj_collision_parent","path":"objects/obj_collision_parent/obj_collision_parent.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"obj_credits_close","path":"objects/obj_credits_close/obj_credits_close.yy",},},
     {"id":{"name":"obj_credits_exit","path":"objects/obj_credits_exit/obj_credits_exit.yy",},},
     {"id":{"name":"obj_creditsbutton","path":"objects/obj_creditsbutton/obj_creditsbutton.yy",},},
@@ -75,6 +84,11 @@
     {"id":{"name":"Peak_Tile_LOL","path":"sprites/Peak_Tile_LOL/Peak_Tile_LOL.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_blackbg","path":"sprites/spr_blackbg/spr_blackbg.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"spr_bramble","path":"sprites/spr_bramble/spr_bramble.yy",},},
+    {"id":{"name":"spr_closegame","path":"sprites/spr_closegame/spr_closegame.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"spr_creditsbutton","path":"sprites/spr_creditsbutton/spr_creditsbutton.yy",},},
     {"id":{"name":"spr_exitbutton","path":"sprites/spr_exitbutton/spr_exitbutton.yy",},},
     {"id":{"name":"Spr_ground","path":"sprites/Spr_ground/Spr_ground.yy",},},
@@ -84,6 +98,11 @@
     {"id":{"name":"spr_playbutton","path":"sprites/spr_playbutton/spr_playbutton.yy",},},
     {"id":{"name":"spr_popup","path":"sprites/spr_popup/spr_popup.yy",},},
     {"id":{"name":"Spr_popupclose","path":"sprites/Spr_popupclose/Spr_popupclose.yy",},},
+<<<<<<< Updated upstream
+=======
+    {"id":{"name":"spr_water","path":"sprites/spr_water/spr_water.yy",},},
+    {"id":{"name":"Sprite30","path":"sprites/Sprite30/Sprite30.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"Forest","path":"tilesets/Forest/Forest.yy",},},
     {"id":{"name":"Meadow","path":"tilesets/Meadow/Meadow.yy",},},
     {"id":{"name":"Peak","path":"tilesets/Peak/Peak.yy",},},
