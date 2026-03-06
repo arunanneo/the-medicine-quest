@@ -115,6 +115,7 @@
     {"id":{"name":"spr_death","path":"sprites/spr_death/spr_death.yy",},},
     {"id":{"name":"spr_exitbutton","path":"sprites/spr_exitbutton/spr_exitbutton.yy",},},
     {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
+    {"id":{"name":"spr_heart_arav","path":"sprites/spr_heart_arav/spr_heart_arav.yy",},},
     {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},},
     {"id":{"name":"spr_helpbutton","path":"sprites/spr_helpbutton/spr_helpbutton.yy",},},
     {"id":{"name":"spr_herb1","path":"sprites/spr_herb1/spr_herb1.yy",},},
