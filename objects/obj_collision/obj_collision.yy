@@ -3,7 +3,7 @@
   "%Name":"obj_collision",
   "eventList":[],
   "managed":true,
-  "name":"obj_collision",
+  "name":"obj_ground_collision",
   "overriddenProperties":[],
   "parent":{
     "name":"Platforms",
