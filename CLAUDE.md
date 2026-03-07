@@ -50,7 +50,7 @@ This is a GameMaker Studio 2 project with no CLI build tools. All development is
 The codebase uses GameMaker's object inheritance system. Parent objects define shared behavior:
 
 - **`obj_collision_parent`** → Base for all solid/collidable objects (platforms, ground)
-  - `obj_ground_collison`, `obj_floating_block` inherit from this
+  - `obj_collision`, `obj_floating_block` inherit from this
 
 - **`obj_herbparent`** → Base for collectible herbs (handles player collision)
   - `obj_herb1`, `obj_herb2` inherit from this
