@@ -45,6 +45,7 @@
     {"name":"inst_547AA6AF","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_3DA80E95","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_14243CBC","path":"rooms/rm_forest/rm_forest.yy",},
+    {"name":"inst_7C6D5E4F","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_20F0471D","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_C7EAAC3","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_24A1B229","path":"rooms/rm_forest/rm_forest.yy",},
@@ -134,6 +135,7 @@
       ],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Game","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_14243CBC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14243CBC","objectId":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":4928.0,},
+        {"$GMRInstance":"v4","%Name":"inst_7C6D5E4F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_7C6D5E4F","objectId":{"name":"obj_inventory_ui","path":"objects/obj_inventory_ui/obj_inventory_ui.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Game","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMREffectLayer":"","%Name":"Night","depth":200,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":32,"gridY":32,"hierarchyFrozen":true,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Night","properties":[
         {"name":"g_TintCol","type":1,"value":"#FF4C1E24",},
