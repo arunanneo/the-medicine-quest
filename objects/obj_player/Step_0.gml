@@ -1,3 +1,8 @@
+// Suppress movement while inventory is open
+if (variable_global_exists("inventory_open") && global.inventory_open) {
+	exit;
+}
+
 /// @DnDAction : YoYo Games.Common.Temp_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1D143795
@@ -120,4 +125,22 @@ if(!(move_x == 0)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDParent : 0BB9AB2E
 	/// @DnDArgument : "expr" "sign(move_x)"
 	/// @DnDArgument : "var" "image_xscale"
-	image_xscale = sign(move_x);}
+	image_xscale = sign(move_x);
+
+	/// @DnDAction : YoYo Games.Collisions.If_Object_At
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 4AE367C5
+	/// @DnDParent : 0BB9AB2E
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "object" "obj_collision_parent"
+	/// @DnDSaveInfo : "object" "obj_collision_parent"
+	var l4AE367C5_0 = instance_place(x + 0, y + 0, [obj_collision_parent]);if ((l4AE367C5_0 > 0)){	/// @DnDAction : YoYo Games.Movement.Jump_To_Point
+		/// @DnDVersion : 1
+		/// @DnDHash : 750E4FD5
+		/// @DnDParent : 4AE367C5
+		/// @DnDArgument : "x" "+0"
+		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y" "-100"
+		/// @DnDArgument : "y_relative" "1"
+		x += +0;y += -100;}}
