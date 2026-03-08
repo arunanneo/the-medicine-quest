@@ -2,7 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 5577447E
 /// @DnDArgument : "var" "dash_state"
-if(dash_state == 0){	/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDArgument : "value" "3"
+if(dash_state == 3){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 589DC0F3
 	/// @DnDParent : 5577447E
