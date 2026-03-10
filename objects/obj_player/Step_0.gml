@@ -1,3 +1,8 @@
+// Suppress movement while inventory is open
+if (variable_global_exists("inventory_open") && global.inventory_open) {
+	exit;
+}
+
 /// @DnDAction : YoYo Games.Common.Temp_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 1D143795
