@@ -1,6 +1,6 @@
 # Getting Started with Cursor
 
-Hey team! This guide is for older team members who want to use Cursor to help build The Medicine Quest.
+Hey team! This guide is for team members who want to use Cursor to help build The Medicine Quest.
 
 ## What Cursor Can Help With
 

@@ -100,7 +100,7 @@ These are **required** for achievements - judges will look for these in your Gam
 
 ### AI Tools Documentation (if using AI)
 
-**Cursor** is available for older team members - see `docs/GETTING-STARTED-WITH-CURSOR.md`. If you use AI tools (Cursor, ChatGPT, Copilot, etc.), document per `docs/OGPC-AI-Tools-Policy.md`: which tools, what they helped with, your role, and what you did with the output.
+**Cursor** is available for team members - see `docs/GETTING-STARTED-WITH-CURSOR.md`. If you use AI tools (Cursor, ChatGPT, Copilot, etc.), document per `docs/OGPC-AI-Tools-Policy.md`: which tools, what they helped with, your role, and what you did with the output.
 
 ---
 
