@@ -4,10 +4,10 @@ Hey team! This guide is for older team members who want to use Cursor to help bu
 
 ## What Cursor Can Help With
 
-- **Fix bugs** - Paste an error message and ask what's wrong
 - **Explain code** - Ask "what does this code do?"
-- **Write code** - Describe what you want and Cursor can write GML for you
 - **Find things** - Ask "where is the player health code?"
+- **Get unstuck** - Ask for hints and direction (you'll learn more than if it does it for you!)
+- **Fix bugs** - Paste an error and ask what to look for
 
 ## How to Ask Good Questions
 
@@ -83,6 +83,32 @@ Ask: "My player walks through walls. How do I fix collision?"
 
 ### Code Not Doing Anything?
 Ask: "I put code in the Step event but nothing happens. Here's my code: [paste code]"
+
+## Get Direction, Not Full Solutions
+
+**You learn more when you build it yourself.** Ask Cursor to guide you instead of doing everything:
+
+| Instead of... | Try asking... |
+|---------------|---------------|
+| "Add a herb counter to the HUD" | "What's the approach for showing herb count? Which object and event would I use?" |
+| "Fix my collision" | "I'm stuck on collision. Can you point me to where similar code exists and what to look for?" |
+| "Make the bear enemy" | "What are the steps to create an enemy? I want to try it myself with some hints." |
+
+**Good prompts:**
+- "Point me in the right direction – don't write it all for me"
+- "Give me a hint, I want to figure out the rest"
+- "What should I look at first? I'll try it and come back if stuck"
+
+## Making Your Own PRs
+
+1. **Create a branch** (from main): `git checkout main` then `git pull` then `git checkout -b yourname/feature-name`
+2. **Make changes** in GameMaker and/or code
+3. **Commit**: `git add .` then `git commit -m "Short description of what you did"`
+4. **Push**: `git push -u origin yourname/feature-name`
+5. **Open a PR** on GitHub: use the link it gives you, or go to the repo → Pull requests → New
+6. **Describe what you did** in the PR so others can review
+
+Ask a coach if you need help with git or GitHub!
 
 ## Rules
 
