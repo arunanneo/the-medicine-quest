@@ -98,15 +98,9 @@ These are **required** for achievements - judges will look for these in your Gam
 | Research "Journeys" theme - 150+ word paragraph with sources | Research & Development | Standard |
 | Document how research influenced game design | Research & Development | Encouraged |
 
-### AI Tools Documentation (REQUIRED if using Claude Code)
+### AI Tools Documentation (if using AI)
 
-| Task | Notes |
-|------|-------|
-| Document which AI tools used | Claude Code, any others |
-| Document what AI helped with | Code assistance, debugging, etc. |
-| Document your role/prompts used | How you guided the AI |
-| Document what you did with AI output | Modified? Used as-is? |
-| Be ready to explain any AI-generated code | Judges will ask! |
+**Cursor** is available for team members - see `docs/GETTING-STARTED-WITH-CURSOR.md`. If you use AI tools (Cursor, ChatGPT, Copilot, etc.), document per `docs/OGPC-AI-Tools-Policy.md`: which tools, what they helped with, your role, and what you did with the output.
 
 ---
 
@@ -197,8 +191,7 @@ These are **required** for achievements - judges will look for these in your Gam
 2. Take screenshots of current game state (for Evolution of Design)
 3. Create game logo and icon
 4. Write 150-word paragraph researching "Journeys" theme
-5. Document Claude Code usage (which tools, what for, how you used output)
-6. Pick a bug from git history and document how it was fixed
+5. Pick a bug from git history and document how it was fixed
 
 ---
 
