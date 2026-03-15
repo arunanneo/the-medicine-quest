@@ -1,3 +1,8 @@
+// Skip HUD when inventory overlay is open (hearts drawn by obj_inventory_ui instead)
+if (variable_global_exists("inventory_open") && global.inventory_open) {
+	exit;
+}
+
 /// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDVersion : 1
 /// @DnDHash : 54C58117
