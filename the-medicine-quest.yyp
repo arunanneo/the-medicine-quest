@@ -91,7 +91,14 @@
 >>>>>>> Stashed changes
     {"id":{"name":"spr_creditsbutton","path":"sprites/spr_creditsbutton/spr_creditsbutton.yy",},},
     {"id":{"name":"spr_exitbutton","path":"sprites/spr_exitbutton/spr_exitbutton.yy",},},
+<<<<<<< Updated upstream
     {"id":{"name":"Spr_ground","path":"sprites/Spr_ground/Spr_ground.yy",},},
+=======
+    {"id":{"name":"spr_grizzlybear","path":"sprites/spr_grizzlybear/spr_grizzlybear.yy",},},
+    {"id":{"name":"spr_ground","path":"sprites/spr_ground/spr_ground.yy",},},
+    {"id":{"name":"spr_heart_arav","path":"sprites/spr_heart_arav/spr_heart_arav.yy",},},
+    {"id":{"name":"spr_heart","path":"sprites/spr_heart/spr_heart.yy",},},
+>>>>>>> Stashed changes
     {"id":{"name":"spr_helpbutton","path":"sprites/spr_helpbutton/spr_helpbutton.yy",},},
     {"id":{"name":"spr_johnnyidle","path":"sprites/spr_johnnyidle/spr_johnnyidle.yy",},},
     {"id":{"name":"spr_johnnyjumping","path":"sprites/spr_johnnyjumping/spr_johnnyjumping.yy",},},
@@ -113,7 +120,15 @@
   "RoomOrderNodes":[
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_test","path":"rooms/rm_test/rm_test.yy",},},
+<<<<<<< Updated upstream
     {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
+=======
+    {"roomId":{"name":"rm_plains","path":"rooms/rm_plains/rm_plains.yy",},},
+    {"roomId":{"name":"rm_forest","path":"rooms/rm_forest/rm_forest.yy",},},
+    {"roomId":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
+    {"roomId":{"name":"rm_lose","path":"rooms/rm_lose/rm_lose.yy",},},
+    {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
+>>>>>>> Stashed changes
   ],
   "templateType":"game",
   "TextureGroups":[
