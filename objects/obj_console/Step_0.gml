@@ -1,10 +1,10 @@
-/// @description Toggle console with ` (backtick), handle input buffer, Enter (run), Tab (autocomplete), Escape (close).
+/// @description Toggle console with C or / key. Handle input buffer, Enter (run), Tab (autocomplete), Escape (close).
 
-var BACKTICK = 96;  // ord("`")
+var open_console = keyboard_check_pressed(ord("C")) || keyboard_check_pressed(ord("/"));
 
-// Toggle: open when ` pressed and closed; close when ` or Escape when open
+// Toggle: open when C or / pressed and closed; close when C, /, or Escape when open
 if (!global.console_open) {
-	if (keyboard_check_pressed(BACKTICK)) {
+	if (open_console) {
 		global.console_open = true;
 		input_buffer = "";
 		keyboard_string = "";
@@ -15,7 +15,7 @@ if (!global.console_open) {
 	exit;
 }
 
-if (keyboard_check_pressed(BACKTICK) || keyboard_check_pressed(vk_escape)) {
+if (open_console || keyboard_check_pressed(vk_escape)) {
 	global.console_open = false;
 	input_buffer = "";
 	keyboard_string = "";
