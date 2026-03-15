@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Fort (Plains Trader, Etc)",
+    "path":"folders/Sprites/Game/Fort (Plains Trader, Etc).yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
