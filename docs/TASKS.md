@@ -195,6 +195,14 @@ These are **required** for achievements - judges will look for these in your Gam
 
 ---
 
+## Debug console (dev / test only)
+
+- **Toggle:** Press **C** or **/** to open/close the in-game debug console.
+- **Command:** `room <room-name>` — e.g. `room rm_plains`, `room rm_forest`. Use **Tab** to autocomplete room names.
+- **Release builds:** The console is excluded from the final game using the **DEBUG_CONSOLE** macro. In GameMaker: **Project → Options → Macros** (for the Default config), add `DEBUG_CONSOLE` = `1`. When you create a Release config for the competition build, set `DEBUG_CONSOLE` = `0` (or leave it undefined) so the console does not appear in the shipped game.
+
+---
+
 ## Notes for Eshan
 
 - **Game Portfolio must be printed** for competition day - wifi is unreliable
