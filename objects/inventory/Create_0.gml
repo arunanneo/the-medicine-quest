@@ -5,10 +5,11 @@ randomize();
 inventory = new Inventory();
 
 // sample items for testing the inventory system in rm_inventory
-inventory.item_add("Blue Herb", 3, spr_herb1);
-inventory.item_add("Green Herb", 2, spr_herb2);
+inventory.item_add("Blue Herb", r_he3, spr_herb1);
+inventory.item_add("Green Herb", 2, sprb2);
 inventory.item_add("Stone", 5, spr_Item_Stone);
-inventory.item_add("Fish", 4, spr_Item_Fish);
+inventory.item_add("Fish", 4
+, spr_Item_Fish);
 
 show_debug_message(inventory);
 
