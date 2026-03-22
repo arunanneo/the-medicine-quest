@@ -34,7 +34,6 @@
     {"name":"inst_547AA6AF","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_3DA80E95","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_14243CBC","path":"rooms/rm_forest/rm_forest.yy",},
-    {"name":"inst_C0DE71F0","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_25B883DE","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_188DE3D0","path":"rooms/rm_forest/rm_forest.yy",},
     {"name":"inst_2475AC2A","path":"rooms/rm_forest/rm_forest.yy",},
@@ -157,7 +156,6 @@
       ],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Game","depth":200,"effectEnabled":true,"effectType":"_filter_tintfilter","gridX":55,"gridY":55,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_14243CBC","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_14243CBC","objectId":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":4928.0,},
-        {"$GMRInstance":"v4","%Name":"inst_C0DE71F0","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_C0DE71F0","objectId":{"name":"obj_inventory_ui","path":"objects/obj_inventory_ui/obj_inventory_ui.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"Game","properties":[
         {"name":"g_TintCol","type":1,"value":"#FF191919",},
       ],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
