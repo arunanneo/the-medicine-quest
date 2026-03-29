@@ -117,6 +117,7 @@
     {"id":{"name":"scr_debug_console_enabled","path":"scripts/scr_debug_console_enabled/scr_debug_console_enabled.yy",},},
     {"id":{"name":"scr_debug_room_list","path":"scripts/scr_debug_room_list/scr_debug_room_list.yy",},},
     {"id":{"name":"scr_inventory_add","path":"scripts/scr_inventory_add/scr_inventory_add.yy",},},
+    {"id":{"name":"scr_level_try_advance","path":"scripts/scr_level_try_advance/scr_level_try_advance.yy",},},
     {"id":{"name":"seq_credits","path":"sequences/seq_credits/seq_credits.yy",},},
     {"id":{"name":"seq_helpmenu","path":"sequences/seq_helpmenu/seq_helpmenu.yy",},},
     {"id":{"name":"snd_music_game","path":"sounds/snd_music_game/snd_music_game.yy",},},
