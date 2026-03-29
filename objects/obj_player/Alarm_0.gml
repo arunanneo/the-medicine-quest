@@ -30,6 +30,6 @@ var l0A7F9204_0 = instance_place(x + 0, y + 0, [obj_collision]);if ((l0A7F9204_
 	/// @DnDParent : 0A7F9204
 	/// @DnDArgument : "x" "0"
 	/// @DnDArgument : "x_relative" "1"
-	/// @DnDArgument : "y" "100"
+	/// @DnDArgument : "y" "110"
 	/// @DnDArgument : "y_relative" "1"
-	x += 0;y += 100;}
+	x += 0;y += 110;}
