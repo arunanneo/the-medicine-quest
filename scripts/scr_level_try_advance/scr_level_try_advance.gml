@@ -11,7 +11,7 @@ function scr_level_try_advance() {
 		goal = 8;
 		next_room = rm_forest;
 	} else if (room == rm_forest) {
-		goal = 10;
+		goal = 11;
 		next_room = rm_mtn;
 	} else if (room == rm_mtn) {
 		goal = 17;
