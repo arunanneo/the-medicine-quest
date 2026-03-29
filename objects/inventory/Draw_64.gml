@@ -140,7 +140,7 @@ for (var row = 0; row < inventory_rows; row++) {
 				0.18,
 				0.18,
 				0
-			);
+  			);
 		}
 	}
 }

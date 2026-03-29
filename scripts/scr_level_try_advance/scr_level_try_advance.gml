@@ -8,13 +8,13 @@ function scr_level_try_advance() {
 	var next_room = -1;
 
 	if (room == rm_plains) {
-		goal = 5;
+		goal = 8;
 		next_room = rm_forest;
 	} else if (room == rm_forest) {
 		goal = 10;
 		next_room = rm_mtn;
 	} else if (room == rm_mtn) {
-		goal = 15;
+		goal = 17;
 		next_room = rm_win;
 	} else {
 		if (_debug) {
