@@ -1,5 +1,11 @@
 /// @DnDAction : YoYo Games.Audio.Stop_Audio
 /// @DnDVersion : 1
+/// @DnDHash : 0
+/// @DnDArgument : "soundid" "snd_music_cutscenes"
+audio_stop_sound(snd_music_cutscenes);
+
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
 /// @DnDHash : 3B5E6684
 /// @DnDArgument : "soundid" "snd_music_menu"
 /// @DnDSaveInfo : "soundid" "snd_music_menu"
