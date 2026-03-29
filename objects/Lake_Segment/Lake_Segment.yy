@@ -1,15 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Snow_Segment",
+  "%Name":"Lake_Segment",
   "eventList":[],
   "managed":true,
-  "name":"Snow_Segment",
+  "name":"Lake_Segment",
   "overriddenProperties":[],
   "parent":{
     "name":"Liquids",
     "path":"folders/Objects/Liquids.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Water_Segment",
+    "path":"objects/Water_Segment/Water_Segment.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_snow",
-    "path":"sprites/spr_snow/spr_snow.yy",
+    "name":"spr_lakewater",
+    "path":"sprites/spr_lakewater/spr_lakewater.yy",
   },
   "spriteMaskId":null,
   "visible":true,

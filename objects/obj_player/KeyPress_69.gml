@@ -15,9 +15,9 @@ if(dash_state == 3){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 5B43D821
 	/// @DnDParent : 5577447E
-	/// @DnDArgument : "speed" "30"
+	/// @DnDArgument : "speed" "12"
 	/// @DnDArgument : "speed_relative" "1"
-	speed += 30;
+	speed += 12;
 
 	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1

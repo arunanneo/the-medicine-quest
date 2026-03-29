@@ -40,3 +40,10 @@ hearts = max_hearts + 1;
 /// @DnDHash : 1D4214CB
 /// @DnDArgument : "var" "dash_state"
 dash_state = 0;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7FE438A4
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "double_jump"
+double_jump = 1;
