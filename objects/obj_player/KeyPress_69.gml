@@ -7,9 +7,9 @@ if(dash_state == 3){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 589DC0F3
 	/// @DnDParent : 5577447E
-	/// @DnDArgument : "expr" "3"
+	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "var" "dash_state"
-	dash_state = 3;
+	dash_state = 1;
 
 	/// @DnDAction : YoYo Games.Movement.Set_Speed
 	/// @DnDVersion : 1
