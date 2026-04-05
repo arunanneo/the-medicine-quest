@@ -30,7 +30,7 @@
   ],
   "name":"spr_wolfwalking",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"Enemies",
     "path":"folders/Sprites/Game/Enemies.yy",
@@ -103,7 +103,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":20,
     "yorigin":0,
   },
   "swatchColours":null,
