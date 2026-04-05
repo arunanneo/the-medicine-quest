@@ -1,10 +1,13 @@
 /// @description Toggle inventory on I key and handle clicks
 
 if (keyboard_check_pressed(ord("I"))) {
+	if (!variable_global_exists("inventory_open")) {
+		global.inventory_open = false;
+	}
 	global.inventory_open = !global.inventory_open;
 }
 
-if (!global.inventory_open) {
+if (!variable_global_exists("inventory_open") || !global.inventory_open) {
 	exit;
 }
 

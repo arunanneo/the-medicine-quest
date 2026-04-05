@@ -38,3 +38,9 @@ pause = false;
 /// @DnDHash : 3FEBFDA3
 /// @DnDArgument : "var" "level"
 global.level = 0;
+
+// Inventory (obj_inventory_ui reads these; init here so order matches instance creation)
+if (!variable_global_exists("player_inventory")) {
+	global.player_inventory = new Inventory();
+}
+global.inventory_open = false;

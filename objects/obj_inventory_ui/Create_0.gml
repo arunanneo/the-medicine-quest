@@ -1,5 +1,12 @@
 /// @description Initialize inventory UI overlay
 
+if (!variable_global_exists("inventory_open")) {
+	global.inventory_open = false;
+}
+if (!variable_global_exists("player_inventory")) {
+	global.player_inventory = new Inventory();
+}
+
 display_set_gui_size(1280, 720);
 
 inventory_columns = 9;
