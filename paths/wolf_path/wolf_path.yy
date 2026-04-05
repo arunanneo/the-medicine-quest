@@ -1,0 +1,20 @@
+{
+  "$GMPath":"",
+  "%Name":"wolf_path",
+  "closed":true,
+  "kind":1,
+  "name":"wolf_path",
+  "parent":{
+    "name":"Paths",
+    "path":"folders/Paths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":3190.0,"y":4895.0,},
+    {"speed":100.0,"x":3390.75,"y":4893.3213,},
+    {"speed":100.0,"x":3540.6428,"y":4895.75,},
+    {"speed":100.0,"x":3391.0,"y":4899.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}
