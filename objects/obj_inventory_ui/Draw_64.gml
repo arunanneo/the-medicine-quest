@@ -1,6 +1,6 @@
 /// @description Draw inventory overlay when open
 
-if (!global.inventory_open) {
+if (!variable_global_exists("inventory_open") || !global.inventory_open) {
 	exit;
 }
 

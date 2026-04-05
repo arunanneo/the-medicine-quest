@@ -33,7 +33,13 @@ audio_play_sound(snd_music_game, 0, 1, 1.0, undefined, 1.0);
 /// @DnDArgument : "var" "pause"
 pause = false;
 
-// Initialize global inventory once (persists across room changes)
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 3FEBFDA3
+/// @DnDArgument : "var" "level"
+global.level = 0;
+
+// Inventory (obj_inventory_ui reads these; init here so order matches instance creation)
 if (!variable_global_exists("player_inventory")) {
 	global.player_inventory = new Inventory();
 }
