@@ -23,7 +23,7 @@
   ],
   "name":"spr_madwolfidle",
   "nineSlice":null,
-  "origin":0,
+  "origin":9,
   "parent":{
     "name":"Enemies",
     "path":"folders/Sprites/Game/Enemies.yy",
@@ -75,7 +75,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":19,
     "yorigin":0,
   },
   "swatchColours":null,
