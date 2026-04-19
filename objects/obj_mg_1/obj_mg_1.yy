@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_mg_forest",
+  "%Name":"obj_mg_1",
   "eventList":[],
   "managed":true,
-  "name":"obj_mg_forest",
+  "name":"obj_mg_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Backgrounds",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mg2",
-    "path":"sprites/spr_mg2/spr_mg2.yy",
+    "name":"spr_mg1",
+    "path":"sprites/spr_mg1/spr_mg1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

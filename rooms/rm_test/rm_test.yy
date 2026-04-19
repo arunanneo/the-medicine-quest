@@ -119,7 +119,6 @@
     {"name":"inst_2238CA74","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_6B95CD9","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_4541884B","path":"rooms/rm_test/rm_test.yy",},
-    {"name":"inst_9A8B7C6D","path":"rooms/rm_test/rm_test.yy",},
     {"name":"inst_1AD53129","path":"rooms/rm_test/rm_test.yy",},
   ],
   "isDnd":false,
