@@ -68,6 +68,7 @@
   },
   "name":"the-medicine-quest",
   "resources":[
+    {"id":{"name":"fnt_story","path":"fonts/fnt_story/fnt_story.yy",},},
     {"id":{"name":"fnt_title","path":"fonts/fnt_title/fnt_title.yy",},},
     {"id":{"name":"Lake_Segment","path":"objects/Lake_Segment/Lake_Segment.yy",},},
     {"id":{"name":"obj_bramble","path":"objects/obj_bramble/obj_bramble.yy",},},
