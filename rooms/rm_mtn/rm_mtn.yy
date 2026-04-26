@@ -100,6 +100,7 @@
     {"name":"inst_7E39569A","path":"rooms/rm_mtn/rm_mtn.yy",},
     {"name":"inst_1A7A48DD","path":"rooms/rm_mtn/rm_mtn.yy",},
     {"name":"inst_2273D3EA","path":"rooms/rm_mtn/rm_mtn.yy",},
+    {"name":"inst_F1DC096","path":"rooms/rm_mtn/rm_mtn.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -271,6 +272,7 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":1100,"effectEnabled":true,"effectType":null,"gridX":55,"gridY":55,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_709029D2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_709029D2","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":55.0,"y":10725.0,},
         {"$GMRInstance":"v4","%Name":"inst_4F2CEBF1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4F2CEBF1","objectId":{"name":"obj_manager_snow","path":"objects/obj_manager_snow/obj_manager_snow.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":605.0,"y":10780.0,},
+        {"$GMRInstance":"v4","%Name":"inst_F1DC096","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_F1DC096","objectId":{"name":"obj_log_spawner","path":"objects/obj_log_spawner/obj_log_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1980.0,"y":10725.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Trees","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_24C9D56E","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_24C9D56E","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_fire","path":"sprites/spr_fire/spr_fire.yy",},"x":330.0,"y":10670.0,},
