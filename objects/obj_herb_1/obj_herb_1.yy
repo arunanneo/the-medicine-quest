@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_herb2",
+  "%Name":"obj_herb_1",
   "eventList":[],
   "managed":true,
-  "name":"obj_herb2",
+  "name":"obj_herb_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Herbs",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_herb2",
-    "path":"sprites/spr_herb2/spr_herb2.yy",
+    "name":"spr_herb3",
+    "path":"sprites/spr_herb3/spr_herb3.yy",
   },
   "spriteMaskId":null,
   "visible":true,

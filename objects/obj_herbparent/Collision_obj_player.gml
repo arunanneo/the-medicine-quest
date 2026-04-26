@@ -7,9 +7,9 @@
 global.herb_amount += 1;
 
 // Add herb to player inventory
-if (object_index == obj_herb1) {
+if (object_index == obj_herb_2) {
 	scr_inventory_add("Blue Herb", 1, spr_herb1);
-} else if (object_index == obj_herb2) {
+} else if (object_index == obj_herb_3) {
 	scr_inventory_add("Green Herb", 1, spr_herb2);
 } else {
 	scr_inventory_add("Herb", 1, spr_herb1);
