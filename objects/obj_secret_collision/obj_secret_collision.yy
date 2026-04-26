@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_secret",
-    "path":"sprites/spr_secret/spr_secret.yy",
+    "name":"spr_secret_forest",
+    "path":"sprites/spr_secret_forest/spr_secret_forest.yy",
   },
   "spriteMaskId":null,
   "visible":true,

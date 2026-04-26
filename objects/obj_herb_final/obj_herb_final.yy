@@ -1,13 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_strongherbparent",
+  "%Name":"obj_herb_final",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_strongherbparent",
+  "name":"obj_herb_final",
   "overriddenProperties":[],
   "parent":{
     "name":"Herbs",
@@ -31,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_final_herb",
+    "path":"sprites/spr_final_herb/spr_final_herb.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

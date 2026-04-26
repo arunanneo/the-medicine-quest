@@ -1,11 +1,3 @@
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 7199FE48
-/// @DnDArgument : "value" "15"
-/// @DnDArgument : "value_relative" "1"
-/// @DnDArgument : "var" "global.herb_amount"
-global.herb_amount += 15;
-
 /// @DnDAction : YoYo Games.Particles.Effect
 /// @DnDVersion : 1
 /// @DnDHash : 6EBFB82D
@@ -19,3 +11,8 @@ effect_create_below(4, x + 0, y + 0, 2, $FFFFFF & $ffffff);
 /// @DnDVersion : 1
 /// @DnDHash : 5A4126BC
 instance_destroy();
+
+/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+/// @DnDVersion : 1
+/// @DnDHash : 652BA110
+room_goto(noone);
