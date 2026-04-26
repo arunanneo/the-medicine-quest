@@ -50,6 +50,13 @@ if(alarm[0] < 0){	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 		/// @DnDArgument : "alarm" "11"
 		alarm_set(11, 60);
 	
+		/// @DnDAction : YoYo Games.Common.Set_Global
+		/// @DnDVersion : 1
+		/// @DnDHash : 6AF21799
+		/// @DnDParent : 30AEC930
+		/// @DnDArgument : "var" "global.herb_amount"
+		global.herb_amount = 0;
+	
 		/// @DnDAction : YoYo Games.Rooms.Restart_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 0CA4454F

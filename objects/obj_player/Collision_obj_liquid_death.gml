@@ -34,6 +34,13 @@ if(hearts <= 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDArgument : "alarm" "11"
 	alarm_set(11, 60);
 
+	/// @DnDAction : YoYo Games.Common.Set_Global
+	/// @DnDVersion : 1
+	/// @DnDHash : 1A0BBA75
+	/// @DnDParent : 3F442130
+	/// @DnDArgument : "var" "global.herb_amount"
+	global.herb_amount = 0;
+
 	/// @DnDAction : YoYo Games.Rooms.Restart_Room
 	/// @DnDVersion : 1
 	/// @DnDHash : 26732D05

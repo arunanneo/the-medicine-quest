@@ -2,6 +2,7 @@
 /// @DnDVersion : 1
 /// @DnDHash : 0
 /// @DnDArgument : "soundid" "snd_music_cutscenes"
+/// @DnDSaveInfo : "soundid" "snd_music_cutscenes"
 audio_stop_sound(snd_music_cutscenes);
 
 /// @DnDAction : YoYo Games.Audio.Stop_Audio
@@ -39,8 +40,8 @@ pause = false;
 /// @DnDArgument : "var" "level"
 global.level = 0;
 
-// Inventory (obj_inventory_ui reads these; init here so order matches instance creation)
-if (!variable_global_exists("player_inventory")) {
-	global.player_inventory = new Inventory();
-}
-global.inventory_open = false;
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 0853F377
+/// @DnDArgument : "var" "global.herb_amount"
+global.herb_amount = 0;
