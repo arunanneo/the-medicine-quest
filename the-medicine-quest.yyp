@@ -181,7 +181,7 @@
     {"id":{"name":"spr_next","path":"sprites/spr_next/spr_next.yy",},},
     {"id":{"name":"spr_playbutton","path":"sprites/spr_playbutton/spr_playbutton.yy",},},
     {"id":{"name":"spr_popup","path":"sprites/spr_popup/spr_popup.yy",},},
-    {"id":{"name":"spr_popupclose","path":"sprites/Spr_popupclose/Spr_popupclose.yy",},},
+    {"id":{"name":"spr_popupclose","path":"sprites/spr_popupclose/spr_popupclose.yy",},},
     {"id":{"name":"spr_secret_forest","path":"sprites/spr_secret_forest/spr_secret_forest.yy",},},
     {"id":{"name":"spr_secret_mtn","path":"sprites/spr_secret_mtn/spr_secret_mtn.yy",},},
     {"id":{"name":"spr_snow","path":"sprites/spr_snow/spr_snow.yy",},},
