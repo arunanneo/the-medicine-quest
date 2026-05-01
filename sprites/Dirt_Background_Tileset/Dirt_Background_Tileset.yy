@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"Lower_Mtn_Tile",
+  "%Name":"Dirt_Background_Tileset",
   "bboxMode":0,
   "bbox_bottom":219,
   "bbox_left":55,
@@ -12,16 +12,16 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"0106fa82-a4b0-41bf-a1c4-fbb7a38e19a5","name":"0106fa82-a4b0-41bf-a1c4-fbb7a38e19a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7f09c40d-7faa-45d8-b032-aae16acda6d6","name":"7f09c40d-7faa-45d8-b032-aae16acda6d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":220,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"8ce3dad2-58b5-4b8b-9205-7397529be66f","blendMode":0,"displayName":"default","isLocked":false,"name":"8ce3dad2-58b5-4b8b-9205-7397529be66f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"86d17baf-3567-46ed-930b-aeed6845859f","blendMode":0,"displayName":"default","isLocked":false,"name":"86d17baf-3567-46ed-930b-aeed6845859f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"Lower_Mtn_Tile",
+  "name":"Dirt_Background_Tileset",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"Lower_Mtn_Tile",
+    "%Name":"Dirt_Background_Tileset",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"Lower_Mtn_Tile",
+    "name":"Dirt_Background_Tileset",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0106fa82-a4b0-41bf-a1c4-fbb7a38e19a5","path":"sprites/Lower_Mtn_Tile/Lower_Mtn_Tile.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2f3a3cb7-9727-4022-9dc6-bc94c653e778","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7f09c40d-7faa-45d8-b032-aae16acda6d6","path":"sprites/Dirt_Background_Tileset/Dirt_Background_Tileset.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b8af1595-32eb-4d9b-8004-36f90d053da3","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

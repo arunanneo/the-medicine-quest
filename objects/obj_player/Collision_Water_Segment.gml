@@ -3,7 +3,9 @@
 /// @DnDHash : 30856B99
 /// @DnDArgument : "var" "alarm[0]"
 /// @DnDArgument : "op" "1"
-if(alarm[0] < 0){	/// @DnDAction : YoYo Games.Instances.Color_Sprite
+if(alarm[0] < 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 1ACC99B1
 	/// @DnDParent : 30856B99
@@ -33,7 +35,9 @@ if(alarm[0] < 0){	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 	/// @DnDParent : 30856B99
 	/// @DnDArgument : "var" "hearts"
 	/// @DnDArgument : "op" "1"
-	if(hearts < 0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	if(hearts < 0)
+{
+	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1
 		/// @DnDHash : 70A99321
 		/// @DnDParent : 30AEC930
@@ -50,21 +54,19 @@ if(alarm[0] < 0){	/// @DnDAction : YoYo Games.Instances.Color_Sprite
 		/// @DnDArgument : "alarm" "11"
 		alarm_set(11, 60);
 	
-		/// @DnDAction : YoYo Games.Common.Set_Global
-		/// @DnDVersion : 1
-		/// @DnDHash : 6AF21799
-		/// @DnDParent : 30AEC930
-		/// @DnDArgument : "var" "global.herb_amount"
-		global.herb_amount = 0;
-	
 		/// @DnDAction : YoYo Games.Rooms.Restart_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 0CA4454F
 		/// @DnDParent : 30AEC930
-		room_restart();}
+		room_restart();
+}
 
 	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1
 	/// @DnDHash : 4D730BA5
 	/// @DnDParent : 30856B99
-	else{}}
+	else
+{
+
+}
+}

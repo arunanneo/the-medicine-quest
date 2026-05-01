@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Just Plain Ol' Sprites",
-    "path":"folders/Tile Sets/Just Plain Ol' Sprites.yy",
+    "name":"Tilesets",
+    "path":"folders/Sprites/Tilesets.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
