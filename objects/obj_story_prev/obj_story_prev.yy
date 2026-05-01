@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_playbutton",
-    "path":"sprites/spr_playbutton/spr_playbutton.yy",
+    "name":"spr_back",
+    "path":"sprites/spr_back/spr_back.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Spr_popupclose",
-    "path":"sprites/Spr_popupclose/Spr_popupclose.yy",
+    "name":"spr_popupclose",
+    "path":"sprites/spr_popupclose/spr_popupclose.yy",
   },
   "spriteMaskId":null,
   "visible":true,

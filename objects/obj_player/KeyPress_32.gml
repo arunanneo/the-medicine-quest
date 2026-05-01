@@ -1,3 +1,7 @@
+if (variable_global_exists("console_open") && global.console_open) {
+	exit;
+}
+
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 346FF47E

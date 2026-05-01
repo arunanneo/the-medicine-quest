@@ -1,5 +1,9 @@
 /// @description Toggle inventory on I key and handle clicks
 
+if (variable_global_exists("console_open") && global.console_open) {
+	exit;
+}
+
 if (keyboard_check_pressed(ord("I"))) {
 	if (!variable_global_exists("inventory_open")) {
 		global.inventory_open = false;
@@ -31,8 +35,13 @@ if (mouse_check_button_released(mb_left)) {
 				if (is_between(my, pos_y, pos_y + ui_inventory_box)) {
 					var inventory_index = (row * inventory_columns) + column;
 					if (inventory_index <= array_length(inventory_items) - 1) {
-						show_debug_message($"Using {inventory_items[inventory_index].name}");
-						global.player_inventory.item_subtract(inventory_items[inventory_index].name, 1);
+						var _item_name = inventory_items[inventory_index].name;
+						if (_item_name == "Yellow Herb" || _item_name == "Blue Herb" || _item_name == "Green Herb" || _item_name == "Herb") {
+							show_debug_message($"Collected {_item_name}: {inventory_items[inventory_index].quantity}");
+						} else {
+							show_debug_message($"Using {_item_name}");
+							global.player_inventory.item_subtract(_item_name, 1);
+						}
 					} else {
 						show_debug_message("No inventory item here!");
 					}
