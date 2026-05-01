@@ -18,13 +18,15 @@ if (!_already_collected) {
 	array_push(global.collected_herbs, herb_collect_key);
 	global.herb_amount += 1;
 
-	// Add herb to player inventory
-	if (object_index == obj_herb_2) {
+	// Add the exact herb Johnny touched so the inventory matches this run's pickups.
+	if (object_index == obj_herb_1) {
+		scr_inventory_add("Yellow Herb", 1, spr_herb3);
+	} else if (object_index == obj_herb_2) {
 		scr_inventory_add("Blue Herb", 1, spr_herb1);
 	} else if (object_index == obj_herb_3) {
 		scr_inventory_add("Green Herb", 1, spr_herb2);
 	} else {
-		scr_inventory_add("Herb", 1, spr_herb1);
+		scr_inventory_add("Herb", 1, sprite_index);
 	}
 }
 

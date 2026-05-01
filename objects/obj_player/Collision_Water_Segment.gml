@@ -34,8 +34,8 @@ if(alarm[0] < 0)
 	/// @DnDHash : 30AEC930
 	/// @DnDParent : 30856B99
 	/// @DnDArgument : "var" "hearts"
-	/// @DnDArgument : "op" "1"
-	if(hearts < 0)
+	/// @DnDArgument : "op" "3"
+	if(hearts <= 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDVersion : 1

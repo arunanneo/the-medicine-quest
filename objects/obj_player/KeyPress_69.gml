@@ -1,9 +1,15 @@
+if (variable_global_exists("console_open") && global.console_open) {
+	exit;
+}
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 5577447E
 /// @DnDArgument : "var" "dash_state"
 /// @DnDArgument : "value" "3"
-if(dash_state == 3){	/// @DnDAction : YoYo Games.Common.Variable
+if(dash_state == 3)
+{
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 589DC0F3
 	/// @DnDParent : 5577447E
@@ -25,7 +31,8 @@ if(dash_state == 3){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDParent : 5577447E
 	/// @DnDArgument : "steps" "7"
 	/// @DnDArgument : "alarm" "2"
-	alarm_set(2, 7);}
+	alarm_set(2, 7);
+}
 
 /// @DnDAction : YoYo Games.Common.Exit_Event
 /// @DnDVersion : 1

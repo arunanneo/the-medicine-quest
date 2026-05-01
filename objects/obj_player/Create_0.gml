@@ -7,7 +7,8 @@ sprint_coolown = 0;
 /// @DnDAction : YoYo Games.Instances.Sprite_Scale
 /// @DnDVersion : 1
 /// @DnDHash : 70AC97E9
-image_xscale = 1;image_yscale = 1;
+image_xscale = 1;
+image_yscale = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
@@ -28,12 +29,12 @@ move_y = 0;
 /// @DnDVersion : 1
 /// @DnDHash : 46C567BE
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "2"
-/// @DnDArgument : "expr_1" "max_hearts + 1"
+/// @DnDArgument : "expr" "6"
+/// @DnDArgument : "expr_1" "max_hearts"
 /// @DnDArgument : "var" "max_hearts"
 /// @DnDArgument : "var_1" "hearts"
-max_hearts = 2;
-hearts = max_hearts + 1;
+max_hearts = 6;
+hearts = max_hearts;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

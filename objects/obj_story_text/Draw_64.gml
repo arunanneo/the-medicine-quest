@@ -16,7 +16,7 @@ switch (room) {
 		body = "One is the elusive gildedflower, found in the farthest reaches of the plains, another is the endangered glowdrop, found in the darkest parts of the forest, and the final one is the gembloom, only found in a small patch found in the deepest parts of the mountain cave.";
 		break;
 	case rm_story_5:
-		body = "You will have to collect all three herbs, encountering many obstacles along the way. Try not to lose all three hearts, or you will die! Can you save Johnny's grandfather?";
+		body = "You will have to collect all three herbs, encountering many obstacles along the way. Try not to lose all six hearts, or you will die! Can you save Johnny's grandfather?";
 		break;
 	default:
 		return;

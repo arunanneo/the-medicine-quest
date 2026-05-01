@@ -51,16 +51,6 @@ draw_rectangle(
 	false
 );
 
-// Draw hearts in stats area (on top of panel, so they're visible)
-if (instance_exists(obj_player)) {
-	var _heart_w = sprite_get_width(spr_heart);
-	var _stats_inner_x = ui_padding_x + ui_border_size + 16;
-	var _stats_inner_y = ui_padding_y + (ui_border_size * 4) + 52;  // lower, below Stats label
-	for (var _i = 0; _i < obj_player.hearts; _i++) {
-		draw_sprite(spr_heart, 0, _stats_inner_x + (_i * _heart_w), _stats_inner_y);
-	}
-}
-
 // draw labels - scaled fnt_title for medium size (0.35 scale = ~27pt equivalent)
 draw_set_font(fnt_title);
 text_align(fa_left, fa_top);
@@ -73,6 +63,28 @@ draw_set(c_black, 0.5);
 draw_text_transformed(_stats_x + 4, _stats_y + 4, "Stats", _text_scale, _text_scale, 0);
 draw_set(c_white, 1);
 draw_text_transformed(_stats_x, _stats_y, "Stats", _text_scale, _text_scale, 0);
+
+// Draw current hearts like an inventory item: one icon with the count below it.
+if (instance_exists(obj_player)) {
+	var _heart_box = 86;
+	var _heart_x = ui_padding_x + ui_border_size + 42;
+	var _heart_y = ui_padding_y + (ui_border_size * 4) + 56;
+	var _heart_w = sprite_get_width(spr_heart);
+	var _heart_h = sprite_get_height(spr_heart);
+	var _heart_ox = sprite_get_xoffset(spr_heart);
+	var _heart_oy = sprite_get_yoffset(spr_heart);
+	var _heart_scale = min((_heart_box - 12) / _heart_w, (_heart_box - 22) / _heart_h);
+	var _heart_center_x = _heart_x + _heart_box / 2;
+	var _heart_center_y = _heart_y + (_heart_box / 2) - 6;
+	var _heart_draw_x = _heart_center_x - (_heart_w * _heart_scale) / 2 + (_heart_ox * _heart_scale);
+	var _heart_draw_y = _heart_center_y - (_heart_h * _heart_scale) / 2 + (_heart_oy * _heart_scale);
+	draw_sprite_ext(spr_heart, 0, _heart_draw_x, _heart_draw_y, _heart_scale, _heart_scale, 0, c_white, 1);
+
+	draw_set(c_white, 1);
+	text_align(fa_center, fa_middle);
+	draw_text_transformed(_heart_x - 12, _heart_center_y, string(obj_player.hearts), 0.22, 0.22, 0);
+	text_align(fa_left, fa_top);
+}
 
 // Inventory label centered above the grid (higher = smaller y)
 var _grid_start_x = ui_padding_x + ui_panel_left + ui_border_size + ui_inventory_padding;
@@ -114,10 +126,9 @@ for (var row = 0; row < inventory_rows; row++) {
 			var _h = sprite_get_height(_spr);
 			var _ox = sprite_get_xoffset(_spr);
 			var _oy = sprite_get_yoffset(_spr);
-			var _scale = min(ui_inventory_box / _w, ui_inventory_box / _h);
-			// Draw at slot center: sprite origin lands at center (works for center-origin sprites like herbs)
-			var _draw_x = pos_x + ui_inventory_box / 2;
-			var _draw_y = pos_y + ui_inventory_box / 2;
+			var _scale = min((ui_inventory_box - 10) / _w, (ui_inventory_box - 10) / _h);
+			var _draw_x = pos_x + (ui_inventory_box - (_w * _scale)) / 2 + (_ox * _scale);
+			var _draw_y = pos_y + (ui_inventory_box - (_h * _scale)) / 2 + (_oy * _scale);
 			draw_sprite_ext(_spr, 0, _draw_x, _draw_y, _scale, _scale, 0, c_white, 1);
 		}
 
@@ -136,21 +147,22 @@ for (var row = 0; row < inventory_rows; row++) {
 			}
 		}
 
-		// quantity badge (small circle and scaled text)
+		// quantity in the box's bottom-right corner
 		if (inventory_index <= array_length(inventory_items) - 1) {
-			draw_set(#232323, 1);
-			draw_circle(
-				pos_x + ui_inventory_box,
-				pos_y + ui_inventory_box,
-				8,
-				false
-			);
-
-			draw_set(c_white, 1);
 			text_align(fa_center, fa_middle);
+			draw_set(c_black, 0.55);
 			draw_text_transformed(
-				pos_x + ui_inventory_box,
-				pos_y + ui_inventory_box,
+				pos_x + ui_inventory_box - 10 + 2,
+				pos_y + ui_inventory_box - 10 + 2,
+				string(inventory_items[inventory_index].quantity),
+				0.18,
+				0.18,
+				0
+			);
+			draw_set(c_white, 1);
+			draw_text_transformed(
+				pos_x + ui_inventory_box - 10,
+				pos_y + ui_inventory_box - 10,
 				string(inventory_items[inventory_index].quantity),
 				0.18,
 				0.18,
