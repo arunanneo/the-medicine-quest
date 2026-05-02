@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":42.051338,
+  "duration":42.05134,
   "exportDir":"",
   "name":"snd_music_cutscenes",
   "parent":{
