@@ -293,6 +293,7 @@
     {"name":"inst_255BB62F","path":"rooms/rm_plains/rm_plains.yy",},
     {"name":"inst_7FFEF6EC","path":"rooms/rm_plains/rm_plains.yy",},
     {"name":"inst_2974356","path":"rooms/rm_plains/rm_plains.yy",},
+    {"name":"inst_46FF8721","path":"rooms/rm_plains/rm_plains.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -704,6 +705,7 @@
         {"$GMRInstance":"v4","%Name":"inst_660419FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_660419FB","objectId":{"name":"obj_log_spawner_delay","path":"objects/obj_log_spawner_delay/obj_log_spawner_delay.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4411.0,"y":5159.0,},
         {"$GMRInstance":"v4","%Name":"inst_48698193","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_48698193","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0833334,"scaleY":1.1911764,"x":501.41666,"y":5170.0,},
         {"$GMRInstance":"v4","%Name":"inst_2974356","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2974356","objectId":{"name":"obj_log_spawner","path":"objects/obj_log_spawner/obj_log_spawner.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":6567.0,"y":5148.0,},
+        {"$GMRInstance":"v4","%Name":"inst_46FF8721","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_46FF8721","objectId":{"name":"obj_wolf","path":"objects/obj_wolf/obj_wolf.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":3410.0,"y":4895.0,},
       ],"layers":[],"name":"Entities","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"House","assets":[
         {"$GMRSpriteGraphic":"v1","%Name":"graphic_5CCC63F4","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_5CCC63F4","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_house","path":"sprites/spr_house/spr_house.yy",},"x":32.0,"y":4980.0,},
