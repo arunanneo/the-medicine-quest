@@ -3,8 +3,8 @@
 /// @DnDHash : 3CCFADB6
 /// @DnDBreak : 1
 
-/// @DnDArgument : "x" "-2.5"
+/// @DnDArgument : "x" "-0.5"
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "0"
 /// @DnDArgument : "y_relative" "1"
-x += -2.5;y += 0;
+x += -0.5;y += 0;
